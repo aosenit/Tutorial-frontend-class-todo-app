@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="formContainer">
+        <form id="form">
+          <input type="text" class="formName" placeholder="Enter your Name" />
+          <input type="email" placeholder="Enter your Email" />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section class="todoApp">
+        <h5>Welcome <b class="username"></b></h5>
+        <div class="todoFormContainer">
+          <form id="todoForm">
+            <input
+              type="text"
+              class="todoFormInput"
+              placeholder="Enter your Todo"
+            />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <h5>List of Todos</h5>
+        <div class="todoListContainer">
+          <!-- <div class="todoList">
+            <h6 class="todoName">todo...</h6>
+            <div class="todoListBtns">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
